@@ -1,0 +1,25 @@
+body {
+    margin: 0;
+}
+.hero {
+    background: url("https://images.pexels.com/photos/2930115/pexels-photo-2930115.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+    background-position: center center; 
+    background-size: cover;
+    height: 600px;
+    color: #fff;
+    .container {
+        height: 100%;
+        .nav ul {
+            display: flex;
+            margin: 0;
+        }
+        .hero-slogan {
+            display: flex;
+            height: 90%;
+            .hero-inner {
+                margin: auto;
+                text-align: center;
+            }
+        }
+    }
+}

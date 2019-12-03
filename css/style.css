@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+}
+
+.hero {
+  background: url("https://images.pexels.com/photos/2930115/pexels-photo-2930115.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+  background-position: center center;
+  background-size: cover;
+  height: 600px;
+  color: #fff;
+}
+
+.hero .container {
+  height: 100%;
+}
+
+.hero .container .nav ul {
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0;
+}
+
+.hero .container .hero-slogan {
+  display: -ms-flexbox;
+  display: flex;
+  height: 90%;
+}
+
+.hero .container .hero-slogan .hero-inner {
+  margin: auto;
+  text-align: center;
+}
+/*# sourceMappingURL=style.css.map */
